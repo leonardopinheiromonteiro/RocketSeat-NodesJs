@@ -1,0 +1,28 @@
+Instalação NP
+npm init -y
+
+Inicialização do TypeScript
+npx tsc --init
+
+Instalar as dependências do TypeScript para o Node.
+npm install -D @types/node
+
+Ajustar o arquivo tsconfig.json alterando o valor do target para "es2020".
+
+Instalar o fastfy
+npm i fastify
+
+Criar o fonte server.js
+
+Comando para converter os fontes .ts para .js
+Exemplo: npx tsc server.ts
+
+Em tempo de desenvolvimento o comando abaixo automatiza a conversão dos fontes.
+npx tsx <nome do fonte>
+
+Pacote de padrões para desenvolvimento em TypeScript da RocketSeat.
+npm i eslint @Rocketseat/eslint-config -D
+
+Instalação do conector de banco Knex
+npm install knex <versão do banco de dados>
+Exemplo: npm install knex sqllite3
